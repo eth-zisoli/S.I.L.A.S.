@@ -237,10 +237,7 @@ Field logs show `🧩 Memory digest: …` and `🧩 Tool digest: …` lines when
 
 Hold a hotkey to record speech, release to paste the transcription into any app. Works everywhere — your editor, browser, chat, terminal. Completely local, completely free.
 
-<p align="center">
-  <img src="docs/img/dictation-history.png" alt="Dictation History" width="400">
-  <img src="docs/img/setup-wizard-dictation.png" alt="Setup Wizard - Dictation" width="400">
-</p>
+
 
 | Platform | Default hotkey |
 |----------|---------------|
