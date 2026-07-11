@@ -8,19 +8,6 @@
 
 ---
 
-**Support Silas** [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4?logo=github)](https://github.com/sponsors/isair) [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-ff5722?logo=kofi&logoColor=white)](https://ko-fi.com/isair)
-
----
-
-<p align="center">
-  <img src="docs/img/face.png" alt="Silas Face" width="400">
-</p>
-
-<p align="center">
-  <img src="docs/img/memory-viewer-diary.png" alt="Memory Viewer - Diary" width="280">
-  <img src="docs/img/memory-viewer-knowledge.png" alt="Memory Viewer - Knowledge Graph" width="280">
-  <img src="docs/img/memory-viewer-meals.png" alt="Memory Viewer - Meals" width="280">
-</p>
 
 ## Why Silas?
 
@@ -35,15 +22,6 @@
 **🔌 Extensible** - MCP integration connects Silas to thousands of tools: smart home, GitHub, Slack, databases, and more. Smart tool selection means adding more tools won't slow things down.
 
 **📊 Transparent progress** - We track what works (and what doesn't) with automated evals. [See current accuracy →](EVALS.md)
-
-**🚧 Known limitations:** Silas is under active development. Primary development happens on macOS. Windows/Linux support may lag behind. We're building in the open, [issues](https://github.com/isair/silas/issues) and [contributions](https://github.com/isair/silas/pulls) welcome!
-- Voice-only for now—no text chat interface yet ([#35](https://github.com/isair/silas/issues/35))
-- No mobile apps ([#17](https://github.com/isair/silas/issues/17))
-- "Stop" commands during speech sometimes get filtered as echo ([#24](https://github.com/isair/silas/issues/24))
-- Dictation is not available on macOS 26+ (Tahoe) due to a pynput incompatibility ([#172](https://github.com/isair/silas/issues/172))
-
-<details>
-<summary><strong>See it in action</strong> (example conversations)</summary>
 
 **Chiming into conversations** (the magic moment):
 ```
@@ -148,18 +126,8 @@ Get the latest from [GitHub Releases](https://github.com/isair/silas/releases):
 
 Silas starts listening automatically — just say "Silas" and talk!
 
-<p align="center">
-  <img src="docs/img/setup-wizard-initial-check.png" alt="Setup - Initial Check" width="200">
-  <img src="docs/img/setup-wizard-model.png" alt="Setup - Model Selection" width="200">
-  <img src="docs/img/setup-wizard-whisper.png" alt="Setup - Whisper" width="200">
-  <img src="docs/img/setup-wizard-dictation.png" alt="Setup - Dictation" width="200">
-  <img src="docs/img/setup-wizard-mcp.png" alt="Setup - MCP Servers" width="200">
-  <img src="docs/img/setup-wizard-complete.png" alt="Setup - Complete" width="200">
-</p>
 
-<p align="center">
-  <img src="docs/img/logs.png" alt="Real-time Logs" width="500">
-</p>
+
 
 ## Features
 
@@ -188,11 +156,6 @@ The setup wizard will guide you through model selection and installation on firs
 ## Configuration
 
 Most users won't need to change anything. Open **⚙️ Settings** from the tray menu to configure Silas through a graphical interface — no JSON editing required. Settings are saved to `~/.config/silas/config.json`.
-
-<p align="center">
-  <img src="docs/img/settings-window.png" alt="Settings Window" width="500">
-  <img src="docs/img/settings-mcp.png" alt="Settings - MCP Servers" width="500">
-</p>
 
 <details>
 <summary><strong>Speech Recognition (Whisper)</strong></summary>
